@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="678BF3EC-72FE-4F9C-6D7A-6DF38BFF9321" name="Enrollment">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:35:05 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Enrollment_ID" id="CF7C7A95-5620-E76A-07E8-DA39B67A1C85">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:35:26 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="8E44BC1D-9411-1AD3-934B-290F45B654B8">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:36:06 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fee_paid" id="7DE7DDF6-EC11-4882-2823-68015C3500ED">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:36:45 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stud_ID" id="B4754EF3-14C6-8EFB-AF16-7B82DC6D2E62">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:47:57 UTC</createdTime>
+<generatorID>C06BB2F7-5554-15A5-81D5-BB56E6295E69</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<referedAttribute>AEACEC42-C937-AB26-38A7-79BA9B44C679</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Course_ID" id="996E0394-F789-6D0B-23E9-C96C2FB3F32E">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:17:12 UTC</createdTime>
+<generatorID>AF8F75F2-4389-8CFB-9FBC-C317F5075817</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<referedAttribute>88FA48E2-DCD5-EBBC-6B3E-70CECBDA7F7C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99C5457F-69B3-E62A-B384-AF275BC7DBDD" name="Enrollment PK">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:36:05 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CF7C7A95-5620-E76A-07E8-DA39B67A1C85</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73C12425-1F5C-D1A0-FB72-FB9AC88A3C44" name="Enrollment">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>678BF3EC-72FE-4F9C-6D7A-6DF38BFF9321</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Enrollment_ID" id="4481ECFC-199E-B6B9-7FC0-114DC1E0AD39">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>CF7C7A95-5620-E76A-07E8-DA39B67A1C85</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="135CFD27-876C-E05F-2D77-ED6E38816FD1">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>8E44BC1D-9411-1AD3-934B-290F45B654B8</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fee_paid" id="4CBEFF70-79BD-C70D-1F3F-1A5A3D1FD214">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>7DE7DDF6-EC11-4882-2823-68015C3500ED</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_Stud_ID" id="04708ABB-E86A-B7BF-B602-2B3ADAE3DBF0">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>B4754EF3-14C6-8EFB-AF16-7B82DC6D2E62</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DEE3CF8-0DBB-DF68-D910-C64A235FF7C3" referredColumn="646FDA20-6743-6023-FDB1-02FB34B8CFBD"/>
+</associations>
+</Column>
+<Column name="Course_Course_ID" id="433CBD36-F3A1-5608-9E05-4A43CB9E7598">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>996E0394-F789-6D0B-23E9-C96C2FB3F32E</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="732CCC64-5D77-AA34-6ABE-0CB0EBFBC729" referredColumn="B692ADA1-A7FC-39F5-ED13-00B976A37A90"/>
+</associations>
+</Column>
+<Column name="Enrollment_Date" id="9A3068A6-8C37-452F-E8E8-E49C3B518FCE">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>2BE94BE5-0009-5C4A-2374-BD0202DDFA4B</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>732CCC64-5D77-AA34-6ABE-0CB0EBFBC729</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="431EEEA6-5209-A049-63F8-C70AE8E9618C" name="Enrollment_PK">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>99C5457F-69B3-E62A-B384-AF275BC7DBDD</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4481ECFC-199E-B6B9-7FC0-114DC1E0AD39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB47A8E7-20AA-DB5E-6C67-971ECC997D91" name="Enrollment_Student_FK">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>C06BB2F7-5554-15A5-81D5-BB56E6295E69</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04708ABB-E86A-B7BF-B602-2B3ADAE3DBF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D38E0586-FF8B-7005-C034-8054308C652B" name="Enrollment_Course_FK">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>AF8F75F2-4389-8CFB-9FBC-C317F5075817</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="433CBD36-F3A1-5608-9E05-4A43CB9E7598"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

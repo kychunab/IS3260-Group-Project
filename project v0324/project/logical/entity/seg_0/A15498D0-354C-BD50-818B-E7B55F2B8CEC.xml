@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A15498D0-354C-BD50-818B-E7B55F2B8CEC" name="Category">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:32:55 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cat_ID" id="78E2691E-1C1B-1C0E-9CB9-0BBE237ED601">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:33:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="C_Name" id="F71C0211-332E-67E3-69C0-76A9CAFB5C6B">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:34:11 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA8E4309-B7E6-0B00-AB6D-3F2858CA6D18" name="Category PK">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:34:07 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78E2691E-1C1B-1C0E-9CB9-0BBE237ED601</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

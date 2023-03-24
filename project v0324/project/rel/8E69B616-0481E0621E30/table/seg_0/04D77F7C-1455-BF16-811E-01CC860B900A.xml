@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04D77F7C-1455-BF16-811E-01CC860B900A" name="Review">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>BF091EC5-62D0-7B07-25E1-3EB0B6627399</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Review_ID" id="CCD32BDA-ECA4-CF41-491D-E1DD1F3DCD83">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>9391B2ED-49F7-DA3A-47A5-10EE60C6E725</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Content" id="A0384412-75C4-58B1-6D33-96685E0E6507">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>E1D25681-2B72-CE0C-AF93-6D9D5A47A633</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rating" id="E051EDAE-C657-A981-D107-CA690599076F">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>7CA98015-C004-80C4-19FB-271D75EAA2C4</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Instructor_I_ID" id="39A45E4E-CA1A-A0A7-F218-D86B3CE6EBA6">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>E5DBF9F2-845E-DF06-1BD8-F9C1E2640AD1</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C1D312E-1FF7-29AE-1B33-DFDE9A5AE98B" referredColumn="0D1D07FC-0B22-F943-8E03-3B27364716E6"/>
+</associations>
+</Column>
+<Column name="Enrollment_Enrollment_ID" id="59D73B82-9D44-5E6D-4202-3F9A0F985F68">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>F7FB9475-5B83-F4B7-B8A8-C645F02D1B59</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5679E200-72E2-1530-ABBB-A1D8B81E8E95" referredColumn="4481ECFC-199E-B6B9-7FC0-114DC1E0AD39"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A750214E-2656-CE65-BAB4-DCECC363FCC7" name="Review_PK">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>AB71AA0B-1FD5-36C7-50B0-D8C04498488D</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCD32BDA-ECA4-CF41-491D-E1DD1F3DCD83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2379885F-F027-8511-F0F7-8DB7D7BB8555" name="Review_Instructor_FK">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>257BAB9D-687E-6632-7A95-FE54354A8B90</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39A45E4E-CA1A-A0A7-F218-D86B3CE6EBA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7A6174A-12CF-C20C-D2A5-3FD24483A7F4" name="Review_Enrollment_FK">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>ECB0E165-3803-C64D-A08C-C795D605D546</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59D73B82-9D44-5E6D-4202-3F9A0F985F68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

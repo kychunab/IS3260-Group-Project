@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF091EC5-62D0-7B07-25E1-3EB0B6627399" name="Review">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:57:23 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Review_ID" id="9391B2ED-49F7-DA3A-47A5-10EE60C6E725">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:57:32 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Content" id="E1D25681-2B72-CE0C-AF93-6D9D5A47A633">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:57:52 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rating" id="7CA98015-C004-80C4-19FB-271D75EAA2C4">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:58:06 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="I_ID" id="E5DBF9F2-845E-DF06-1BD8-F9C1E2640AD1">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 05:01:49 UTC</createdTime>
+<generatorID>257BAB9D-687E-6632-7A95-FE54354A8B90</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<referedAttribute>DE69837A-5809-CD10-A2E3-7221A0F097D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Enrollment_ID" id="F7FB9475-5B83-F4B7-B8A8-C645F02D1B59">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:16:50 UTC</createdTime>
+<generatorID>ECB0E165-3803-C64D-A08C-C795D605D546</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<referedAttribute>CF7C7A95-5620-E76A-07E8-DA39B67A1C85</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB71AA0B-1FD5-36C7-50B0-D8C04498488D" name="Review PK">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:57:51 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9391B2ED-49F7-DA3A-47A5-10EE60C6E725</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

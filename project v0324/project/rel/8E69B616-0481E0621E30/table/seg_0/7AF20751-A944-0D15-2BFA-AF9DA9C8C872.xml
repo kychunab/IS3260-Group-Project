@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AF20751-A944-0D15-2BFA-AF9DA9C8C872" name="bookmarks">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Student_Stud_ID" id="CFE67978-EB35-0508-28C4-1698946AAFD9">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99CF7760-C800-482E-1DEB-C79876EB23FF" referredColumn="646FDA20-6743-6023-FDB1-02FB34B8CFBD"/>
+</associations>
+</Column>
+<Column name="Course_Course_ID" id="9F0DC7A8-3959-E68D-5A6D-477B6B83D989">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="973F6D13-3389-AA2C-FA29-17CBABF4DDEC" referredColumn="B692ADA1-A7FC-39F5-ED13-00B976A37A90"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C58A57BE-DA1C-7532-D266-A69779F29E25" name="bookmarks_PK">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFE67978-EB35-0508-28C4-1698946AAFD9"/>
+<colUsage columnID="9F0DC7A8-3959-E68D-5A6D-477B6B83D989"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEADD8E2-87EF-3DA9-E4A3-05E1F63C0013" name="bookmarks_Student_FK">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>5A3C4CE5-7306-A5B1-782A-942BE57ED998</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFE67978-EB35-0508-28C4-1698946AAFD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DA16BA5-48C1-2F39-12CB-E6D60079732D" name="bookmarks_Course_FK">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:19:59 UTC</createdTime>
+<generatorID>5A3C4CE5-7306-A5B1-782A-942BE57ED998</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F0DC7A8-3959-E68D-5A6D-477B6B83D989"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

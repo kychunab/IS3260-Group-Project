@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="bookmarks" directorySegmentName="seg_0" id="5A3C4CE5-7306-A5B1-782A-942BE57ED998">
+<createdBy>elain</createdBy>
+<createdTime>2023-03-24 04:15:10 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>766D0CAA-768C-41A1-9755-EC84C205EEBA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4F124395-633F-A1FB-6493-09688E4B177B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

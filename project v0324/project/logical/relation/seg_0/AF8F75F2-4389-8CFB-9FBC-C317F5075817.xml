@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="involvesv2" directorySegmentName="seg_0" id="AF8F75F2-4389-8CFB-9FBC-C317F5075817">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:48:39 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<sourcePk>F1BC3A69-0246-452B-D44F-35BD8F338BE7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4F124395-633F-A1FB-6493-09688E4B177B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>678BF3EC-72FE-4F9C-6D7A-6DF38BFF9321</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Enrollment_Date" id="2BE94BE5-0009-5C4A-2374-BD0202DDFA4B">
+<createdBy>kychunab</createdBy>
+<createdTime>2023-03-10 04:49:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="8E69B616-FC47-0BFC-A41D-0481E0621E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
